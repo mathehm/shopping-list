@@ -1,6 +1,25 @@
 # shopping-list
 
-This template should help get you started developing with Vue 3 in Vite.
+### Some features that the app has:
+
+* Creating a new shopping list with a name and description
+* Adding items to the shopping list, specifying the item's quantity, unit of measure, and price
+* Editing and deleting shopping list items
+* Marking items as purchased or not purchased
+* Sharing shopping lists with other users, allowing them to edit and add items to the list
+* Purchase history view for each listing, showing the date items were purchased and the total purchase amount
+* Automatic calculation of total shopping list value based on item prices and quantities
+* Search for items in a public database to automatically add items to the shopping list
+* Integration with online payment services to allow users to pay for their purchases directly within the app
+
+### When developing this application, I try to practice several advanced Vue 3, TypeScript and OOP concepts, such as:
+
+* Use of reactive, computed and assisted components
+* Using mixins and inheritance to share functionality between components
+* Creating classes and interfaces to represent domain entities such as shopping lists, items, and users
+* Implementing design patterns such as Factory, Adapter, and Facade
+* Use of asynchronous resources, such as HTTP requests and integration with online payment services
+* Implementation of automated tests to ensure application quality and robustness
 
 ## Recommended IDE Setup
 
